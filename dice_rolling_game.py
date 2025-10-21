@@ -1,12 +1,3 @@
-#loop
-  # ask: roll the dice?
-  # if enter yes
-       # generate two random numbers
-  # if enter no
-       # thanks your message
-       # terminate the game 
-  #  if enter other else
- # print invalid choice
 import random
 
 while True:
@@ -23,3 +14,4 @@ while True:
         break
     else:
         print(f"invalid choice")
+
